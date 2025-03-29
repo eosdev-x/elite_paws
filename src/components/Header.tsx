@@ -10,12 +10,14 @@ export function Header() {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <div className="flex items-center">
-              <Paw className="w-8 h-8 text-blue-600" />
-            </div>
-            <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
-              Elite Paws
-            </h1>
+            <a href="#" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
+              <div className="flex items-center">
+                <Paw className="w-8 h-8 text-blue-600" />
+              </div>
+              <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
+                Elite Paws
+              </h1>
+            </a>
           </div>
 
           {/* Desktop Navigation */}
